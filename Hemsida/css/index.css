@@ -1,0 +1,45 @@
+body {
+  font-family: Roboto, Arial;
+  
+  margin: 0px;
+  padding: 20px;
+  margin-bottom: 1000px;
+}
+
+.header-container {
+  display:flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.profile-info {
+  display: inline-block;
+  width: 800px;
+  vertical-align: center;
+}
+.jesper-name {
+  background-color: lightblue;
+  font-size: 80px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.jesper-title {
+  background-color: pink;
+  font-size: 80px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.profile-picture {
+  display: inline-block;
+  width: 400px;
+  vertical-align: center;
+  
+}
+
+.profile-image {
+  width: 100%;
+  border-radius: 100%;
+  object-fit:initial ;
+}
